@@ -50,11 +50,8 @@ android {
 }
 
 dependencies {
-
-    //Koin Dependencies:
-    implementation ("org.koin:koin-core:3.2.0")
-    implementation ("org.koin:koin-android:3.2.0")
-    implementation ("org.koin:koin-androidx-viewmodel:3.2.0")
+    // Navigation Dependencies
+    implementation ("androidx.navigation:navigation-compose:2.7.7")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
