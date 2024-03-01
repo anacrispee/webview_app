@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MySplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/pink_theme</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="android:statusBarColor">@color/pink_theme</item>
+        <item name="postSplashScreenTheme">@style/Theme.WebViewApp</item>
+    </style>
+</resources>
